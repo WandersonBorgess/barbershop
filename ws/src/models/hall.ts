@@ -36,4 +36,4 @@ const hall = new Schema({
 
 hall.index({ geo: '2dsphere' })
 
-module.exports = mongoose.model('Hall', hall);
+export default mongoose.model('Hall', hall);
